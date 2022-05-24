@@ -1,49 +1,16 @@
-/* //actividad 1
-let usuario = prompt("ingrese un nombre: mariano")
-let nombre = "mariano"
+//ejercicio 3
 
-if (usuario === nombre) {
-    alert("FUI YO")
-}
+/* let usuario = Number(prompt("elija un numero"))
 
-else {
-    alert("NO FUI YO")
+for(let i = 1; i <=20; i++) {
+    let ejemplo = usuario + i
+    alert(usuario + "+" + i + "=" + ejemplo)
 } */
 
-//actividad 2
-
-//actividad 3
-/* let entrada3 = prompt("Seleccione un jugador del 1 al 4");
-
-if (entrada3 == 1) {
-    alert("ELEGISTE A HOMERO");
-}else if (entrada3 == 2) {
-    alert("ELEGISTE A MARGE");
-}else if (entrada3 == 3) {
-    alert("ELEGISTE A BART");
-}else if (entrada3 == 4) {
-    alert("ELEGISTE A LISA");
+//ejercicio 4
+function cuotas(a, b) {
+    let cuota= a / b
+    alert("la cuota total es:"+ cuota )
 }
-else {
-    alert("ERROR"); 
-} */
 
-//actividad 4
-/*  let usuario = Number(prompt("ingrese un numero entre 0 y 3000"))
-let numero = 1000
-let numero1 = 1001
-let numero2= 3000
-
-if (usuario <= numero ) {
-    alert("presupuesto bajo")
-}
-else if (usuario >= numero1; usuario < numero2;) {
-    alert("presupuesto medio")
-}
-else if (usuario >= numero2) {
-    alert("presupuesto alto") 
-} */
-
-//actividad 5
-
-
+cuotas(Number(prompt("ingrese el precio de cuotas")), Number(prompt("ingrese las cuotas")))
