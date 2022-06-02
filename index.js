@@ -1,16 +1,44 @@
-//ejercicio 3
+let cartas = [
+    {
+       "color": "negro",
+       "tipo": "picas",
+       "numeros": 10,
+    },
+    {
+        "color": "negro",
+        "tipo": "trebol",
+        "numeros": 10,
+     },
+     {
+        "color": "negro",
+        "tipo": "corazones",
+        "numeros": 10,
+     },
+     {
+        "color": "negro",
+        "tipo": "diamantes",
+        "numeros": 10,
+     },
+     {
+        "color": "rojo",
+        "tipo": "corazones",
+        "numeros": 10,
+     },
+     {
+        "color": "rojo",
+        "tipo": "picas",
+        "numeros": 10,
+     },
+     {
+        "color": "rojo",
+        "tipo": "trebol",
+        "numeros": 10,
+     },
+     {
+        "color": "rojo",
+        "tipo": "diamantes",
+        "numeros": 10,
+     },
+]
 
-/* let usuario = Number(prompt("elija un numero"))
-
-for(let i = 1; i <=20; i++) {
-    let ejemplo = usuario + i
-    alert(usuario + "+" + i + "=" + ejemplo)
-} */
-
-//ejercicio 4
-function cuotas(a, b) {
-    let cuota= a / b
-    alert("la cuota total es:"+ cuota )
-}
-
-cuotas(Number(prompt("ingrese el precio de cuotas")), Number(prompt("ingrese las cuotas")))
+console.log(cartas)

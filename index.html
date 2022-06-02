@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./js.svg" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>JS</title>
   </head>
   <body>
+    <header>
+      <h1><a href="">POKER</a></h1>
+      <div></div>
+    </header>
+
+    <main>
+      <div class="main">
+        <h2>BLACK JACK</h2>
+        <p>
+          Se reparten dos cartas a la vista para cada jugador. Entonces el Croupier preguntará si necesita otra carta. En dicho caso, señáleselo claramente con la mano. Si usted tiene Black Jack, gana
+          y se le paga 3 a 2, a menos que el Croupier también tenga Black Jack, en cuyo caso se llama un Empate y ninguna de las dos manos gana. Si sus cartas totalizan un valor más cercano a 21 que
+          las del Croupier, usted gana y se le paga el valor de la apuesta. El Croupier deberá plantarse con un total de 17 o más y deberá tomar una carta más si tiene 16 o menos.
+        </p>
+      </div>
+      <video muted autoplay loop>
+        <source src="carta.mp4" type="video/mp4" />
+      </video>
+    </main>
+
+    <div class="contador">
+      <h2>REPARTIR CARTAS POR JUGADOR</h2>
+      <div class="celdas">
+        <h3>CARTAS</h3>
+        <input type="number" name="" class="cont" required />
+        <h3>JUGADORES</h3>
+        <input type="number" name="" class="cont" required />
+        <h3>RESULTADO</h3>
+        <input type="number" name="" class="cont" required />
+      </div>
+      <div class="img3"></div>
+    </div>
+
     <script src="./index.js"></script>
   </body>
 </html>
